@@ -1,9 +1,41 @@
-.box{
-  height: 100px;
-  width: 500px;
-  background: #323232;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #f4eee8;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    padding: 5% 15%;
+    height: 100vh;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    word-spacing: 1.5rem;
+}
+#inputHEX{
+    padding: 1rem;
+    border-radius: 2rem;
 }
 
+.color-code{
+    padding: 4%;
+}
+.box{
+  height: 100px;
+  
+  background: #323232;
+  margin: 2rem;
+}
+.output-color-txt{
+    font-size: ;
+}
 
 .toggle-text {
     font-size: 18px;
@@ -12,13 +44,13 @@
 .toggle {
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin: 0 35%;
     cursor: pointer;
 }
 
 .toggle-btn {
-    height: 30px;
-    width: 60px;
+    height: 40px;
+    width: 70px;
     background-color: gray;
     border-radius: 30px;
     padding: 5px;
